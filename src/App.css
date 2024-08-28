@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(152, 214, 74);
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App-header {
+  margin-bottom: 20px;
+}
+
+.App-logo {
+  width: 150px;
+  height: auto;
+}
+
+.App-container {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 800px;
+  max-width: 800px; 
+  height: 500px;
+}
+
+.Toolbar {
+  margin-bottom: 20px;
+}
